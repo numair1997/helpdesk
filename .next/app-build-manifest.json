@@ -1,0 +1,76 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_next_font_google_target_css.css",
+      "static/css/css-app_globals_css.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/(without-layout)/sign-in/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/chunks/app/(without-layout)/sign-in/page.js"
+    ],
+    "/(without-layout)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(without-layout)/layout.js"
+    ],
+    "/(without-layout)/post-task/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(without-layout)/post-task/page.js"
+    ],
+    "/(without-layout)/home-four/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/chunks/app/(without-layout)/home-four/page.js"
+    ],
+    "/(dashboard)/dashboard/edit-profile/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/dashboard/edit-profile/page.js"
+    ],
+    "/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/layout.js"
+    ],
+    "/(dashboard)/dashboard/edit-service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/dashboard/edit-service/page.js"
+    ],
+    "/(dashboard)/dashboard/services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/dashboard/services/page.js"
+    ],
+    "/(dashboard)/dashboard/home/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/chunks/app/(dashboard)/dashboard/home/page.js"
+    ],
+    "/(without-layout)/home-two/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/chunks/app/(without-layout)/home-two/page.js"
+    ]
+  }
+}
