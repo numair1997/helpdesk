@@ -107,28 +107,6 @@ export const headerMenu = [
     id: uuidv4(),
     name: "Home",
     isSubmenu: true,
-    submenu: [
-      {
-        id: uuidv4(),
-        name: "Home One",
-        link: "/",
-      },
-      {
-        id: uuidv4(),
-        name: "Home Two",
-        link: "/home-two",
-      },
-      {
-        id: uuidv4(),
-        name: "Home Three",
-        link: "/home-three",
-      },
-      {
-        id: uuidv4(),
-        name: "Home Four",
-        link: "/home-four",
-      },
-    ],
   },
   {
     id: uuidv4(),

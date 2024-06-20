@@ -1,5 +1,5 @@
 "use client";
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/helpdesk-logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -37,21 +37,7 @@ function Header() {
   const { scrolled } = useScroll();
   return (
     <header className="">
-      {path === "/home-two" && (
-        <div className="absolute left-2 right-2 top-3 h-[76px] rounded-3xl bg-r50 sm:h-20 xxl:left-6 xxl:right-6 3xl:left-8 3xl:right-8"></div>
-      )}
-
-      {path === "/home-three" && (
-        <div className="absolute left-0 right-0 top-0 h-[105px] bg-r50"></div>
-      )}
-
-      <div
-        className={`left-0 right-0 top-0 z-50 ${
-          scrolled
-            ? "animationOne fixed bg-white shadow-md"
-            : "animationTwo absolute"
-        }`}
-      >
+      <div className={"bg-black text-white"} >
         <div className="max-xxl:container xxl:px-25">
           <div className="text-s1 flex items-center justify-between py-6">
             <div className="flex items-center justify-start gap-3 pb-1">
@@ -65,21 +51,26 @@ function Header() {
                 <Image
                   src={logo}
                   alt="Servibe logo"
-                  className="max-w-[170px] max-sm:max-w-[150px]"
+                  className="max-w-[170px] max-sm:max-w-[150px] text-white"
                 />
               </Link>
             </div>
 
             <nav className="max-lg:hidden">
-              <ul className="flex items-center justify-center gap-2 font-medium xxl:gap-6">
-                {headerMenu.map((menu) => (
+              <ul className="flex items-center justify-center font-medium xxl:gap-16">
+                <li>Home</li>
+                <li>Services</li>
+                <li>About Us</li>
+                <li>Pricing</li>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+                {/* {headerMenu.map((menu) => (
                   <li key={menu.id}>
                     {menu.isSubmenu && (
                       <div className="group relative cursor-pointer">
                         <div
-                          className={`subMenuTitle relative flex items-center justify-center gap-1 px-2 py-3 hover:text-b500 ${
-                            isMenuActive(menu) ? "text-b500" : ""
-                          }`}
+                          className={`subMenuTitle relative flex items-center justify-center gap-1 px-2 py-3 hover:text-b500 ${isMenuActive(menu) ? "text-b500" : ""
+                            }`}
                         >
                           {menu.name}
                           <PiCaretDown className="block pt-0.5 duration-700 group-hover:rotate-180" />
@@ -89,9 +80,8 @@ function Header() {
                             <li key={id}>
                               <Link
                                 href={link}
-                                className={`subMenuItem px-6 duration-500 hover:ml-2 hover:text-y200 ${
-                                  path === link && "text-y200"
-                                }`}
+                                className={`subMenuItem px-6 duration-500 hover:ml-2 hover:text-y200 ${path === link && "text-y200"
+                                  }`}
                               >
                                 {name}
                               </Link>
@@ -101,39 +91,39 @@ function Header() {
                       </div>
                     )}
                   </li>
-                ))}
+                ))} */}
               </ul>
             </nav>
 
             <div className="flex items-center justify-between gap-6">
               <ul className="flex items-center justify-start gap-2 font-medium max-sm:hidden xxl:gap-6">
-                <li className="hover:text-b500 duration-500">
+                <li>
                   <Link href="/sign-up" className="rounded-lg px-2 py-3 ">
-                    Sign up
+                    Login/SignUp For Helper
                   </Link>
                 </li>
-                <li className="hover:text-b500 duration-500">
+                {/* <li className="hover:text-b500 duration-500">
                   <Link href="/sign-in" className="rounded-lg px-2 py-3">
                     Sign in
                   </Link>
-                </li>
+                </li> */}
               </ul>
               <div className="flex items-center justify-between gap-3 font-semibold">
                 <Link
-                  href="/post-task"
-                  className="relative flex items-center justify-center overflow-hidden rounded-full bg-b300 text-white duration-700 after:absolute after:inset-0 after:left-0 after:w-0 after:rounded-full after:bg-yellow-400 after:duration-700 hover:text-n900 hover:after:w-[calc(100%+2px)] max-xxl:size-11 max-xxl:!leading-none xxl:px-8 xxl:py-3"
+                  href="/"
+                  className="bg-white text-black p-2 pl-4 pr-4  rounded-3xl"
+                  // className="relative flex items-center justify-center overflow-hidden rounded-full bg-b300 text-white duration-700 after:absolute after:inset-0 after:left-0 after:w-0 after:rounded-full after:bg-yellow-400 after:duration-700 hover:text-n900 hover:after:w-[calc(100%+2px)] max-xxl:size-11 max-xxl:!leading-none xxl:px-8 xxl:py-3"
                 >
-                  <span className="relative z-10 max-xxl:hidden">
-                    Post a Task
-                  </span>
-                  <PiPlusBold className=" relative z-10 text-xl xxl:hidden" />
+                <span className="relative z-10 max-xxl:hidden">
+                  Sign In / Register
+                </span>
                 </Link>
-                <Link
+                {/* <Link
                   href="/become-tasker"
                   className="relative overflow-hidden rounded-full bg-b50 px-8 py-3 text-b300 duration-700 after:absolute after:inset-0 after:left-0 after:w-0 after:rounded-full after:bg-yellow-400 after:duration-700 hover:text-n900 hover:after:w-[calc(100%+2px)] max-xl:hidden"
                 >
                   <span className="relative z-10 ">Become a Tasker</span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

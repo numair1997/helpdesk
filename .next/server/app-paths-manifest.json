@@ -1,7 +1,7 @@
 {
   "/page": "app/page.js",
-  "/(without-layout)/sign-in/page": "app/(without-layout)/sign-in/page.js",
-  "/(without-layout)/sign-up/page": "app/(without-layout)/sign-up/page.js",
-  "/(without-layout)/forgot-password/page": "app/(without-layout)/forgot-password/page.js",
-  "/(without-layout)/verify-otp/page": "app/(without-layout)/verify-otp/page.js"
+  "/(without-layout)/verify-otp/page": "app/(without-layout)/verify-otp/page.js",
+  "/(without-layout)/home-two/page": "app/(without-layout)/home-two/page.js",
+  "/(without-layout)/home-three/page": "app/(without-layout)/home-three/page.js",
+  "/(without-layout)/home-four/page": "app/(without-layout)/home-four/page.js"
 }

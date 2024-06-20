@@ -2699,6 +2699,9 @@ p {
 .pt-60 {
   padding-top: 15rem;
 }
+.pl-3 {
+  padding-left: 0.75rem;
+}
 .text-center {
   text-align: center;
 }
@@ -5893,6 +5896,24 @@ input[type="number"] {
   }
   .xxl\:gap-6 {
     gap: 1.5rem;
+  }
+  .xxl\:gap-2 {
+    gap: 0.5rem;
+  }
+  .xxl\:gap-12 {
+    gap: 3rem;
+  }
+  .xxl\:gap-32 {
+    gap: 8rem;
+  }
+  .xxl\:gap-24 {
+    gap: 6rem;
+  }
+  .xxl\:gap-20 {
+    gap: 5rem;
+  }
+  .xxl\:gap-16 {
+    gap: 4rem;
   }
   .xxl\:p-30 {
     padding: 120px;

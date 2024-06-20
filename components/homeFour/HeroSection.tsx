@@ -10,6 +10,7 @@ import sliderImg1 from "@/public/images/home_four_hero1.png";
 import sliderImg2 from "@/public/images/home_four_hero2.png";
 import sliderImg3 from "@/public/images/home_four_hero3.png";
 import sliderImg4 from "@/public/images/home_four_hero4.png";
+import HeroImage from "@/public/images/home-page.png"
 import Image from "next/image";
 
 import FadeDown from "../animation/FadeDown";
@@ -29,10 +30,10 @@ const sliderImages = [
 
 function HeroSection() {
   return (
-    <section className="pt-[100px]">
+    <section>
       <div className="bg relative z-10 h-[650px] sm:h-[600px] md:h-[700px] lg:h-[800px]">
-        <div className="absolute inset-0 z-20 bg-n900/80"></div>
-        <Swiper
+        <div className="absolute inset-0 z-20 bg-black"></div>
+        {/* <Swiper
           modules={[FreeMode, Autoplay]}
           loop={true}
           direction={"vertical"}
@@ -85,29 +86,31 @@ function HeroSection() {
               <Image src={item} alt="" />
             </SwiperSlide>
           ))}
-        </Swiper>
+        </Swiper> */}
 
         <div className="relative z-30 mx-auto flex h-full max-w-[950px] flex-col items-center justify-center text-center text-white max-xxl:overflow-hidden">
           <FadeDown>
             <h5 className="heading-5 pb-3 text-center">Your Solution Hub</h5>
           </FadeDown>
           <FadeRight>
-            <h1 className="display-2 pb-6 font-extrabold">
-              Find the Right <br />
-              <span className="text-y300">Talent</span> for Any Task
+            <h1 className="display-2 pb-6 font-extrabold text-5xl">
+              Find the Right Talent for Any Task
             </h1>
           </FadeRight>
           <FadeTop>
-            <p className="w-[95%] pb-10 text-xl sm:text-2xl">
-              Access assistance from a vast network of reliable local experts,
-              spanning home repairs to beauty services.
+            <p className="pb-10 text-small">
+              Connect with experts across various professions via call, video call, or screen sharing.
             </p>
           </FadeTop>
-          <div className="w-[95%] text-n900 md:w-[650px] lg:w-[800px] xl:w-[950px]">
-            <SearchBox />
+          <div className="">
+            <img
+              src={'/images/home-page.png'}
+              alt={"hero-image"}
+              width={500}
+            />
           </div>
 
-          <ul className="flex flex-wrap items-center justify-start gap-2 pl-2 pt-8 font-medium text-n900 max-sm:text-sm sm:gap-3">
+          {/* <ul className="flex flex-wrap items-center justify-start gap-2 pl-2 pt-8 font-medium text-n900 max-sm:text-sm sm:gap-3">
             <li className="heading-5 text-white">Popular:</li>
             <li className="rounded-lg bg-b50 px-2 py-2 sm:px-4">Handyman</li>
             <li className="rounded-lg bg-bg2 px-2 py-2 sm:px-4">Babysitting</li>
@@ -115,7 +118,7 @@ function HeroSection() {
               Photography
             </li>
             <li className="rounded-lg bg-bg1 px-2 py-2 sm:px-4">Renovation</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>
