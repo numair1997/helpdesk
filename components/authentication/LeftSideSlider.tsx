@@ -13,9 +13,16 @@ import Image from "next/image";
 
 function LeftSideSlider() {
   return (
-    <div className="ml-10 flex items-start justify-start gap-10 max-lg:hidden 3xl:ml-40 3xl:gap-20">
-      {/* <img src={'/images/auth.png'} alt={"auth-image"}/> */}
-      <Swiper
+    <div className="m-5 flex items-start justify-start gap-10 max-lg:hidden ">
+      <img
+        src={'/images/auth.png'}
+        alt={"auth-image"}
+        style={{
+          width: '900px',
+          height: '850px'
+        }}
+      />
+      {/* <Swiper
         modules={[FreeMode, Autoplay]}
         loop={true}
         speed={10000}
@@ -104,7 +111,7 @@ function LeftSideSlider() {
             </SwiperSlide>
           ))}
         </div>
-      </Swiper>
+      </Swiper> */}
     </div>
   );
 }

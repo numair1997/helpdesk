@@ -23,10 +23,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/_not-found/page": [
+    "/(without-layout)/sign-up/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/css-node_modules_swiper_swiper_css.css",
+      "static/chunks/app/(without-layout)/sign-up/page.js"
     ]
   }
 }

@@ -6,8 +6,9 @@ import "swiper/css";
 import LeftSideSlider from "@/components/authentication/LeftSideSlider";
 import facebook from "@/public/images/facebook_icon.png";
 import google from "@/public/images/google_icon.png";
-import logo from "@/public/images/logo.png";
-import icon2 from "@/public/images/victor_icon.png";
+import MicrosoftLogo from "@/public/images/microsoft-logo.png";
+import AppleLogo from "@/public/images/apple-logo.png";
+import FacebookLogo from "@/public/images/facebook-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { PiEnvelopeSimple, PiLock } from "react-icons/pi";
@@ -25,16 +26,11 @@ function SignInPage() {
           <LeftSideSlider />
           <div className="flex h-full w-full max-w-[530px] flex-col items-start justify-start max-lg:px-6 max-lg:pt-40 lg:ml-20 xl:max-w-[380px] xxl:max-w-[530px] 3xl:ml-40">
             <div className="">
-              <Link href="/">
-                <Image src={logo} alt="" />
-              </Link>
-            </div>
-            <div className="flex items-center justify-start pt-8">
-              <p className="heading-5">Welcome to Servibe</p>
-              <Image src={icon2} alt="" />
+              <p className="text-4xl font-bold">Sign In</p>
+              <p className="text-base">Please login to continue to your account.</p>
             </div>
             <form className="flex w-full flex-col pt-6">
-              <div className="flex flex-col gap-6">
+              {/* <div className="flex flex-col gap-6">
                 <div className="flex w-full items-center justify-start gap-3 rounded-2xl border border-n30 px-4 py-3">
                   <span className=" text-2xl !leading-none">
                     <PiEnvelopeSimple />
@@ -55,9 +51,9 @@ function SignInPage() {
                     className="w-full text-sm text-n300 outline-none"
                   />
                 </div>
-              </div>
+              </div> */}
               <div className="w-full">
-                <Link
+                {/* <Link
                   href="/contact"
                   className="block py-3 text-end text-sm font-medium text-n300"
                 >
@@ -74,17 +70,37 @@ function SignInPage() {
                   <Link href="/sign-up" className="text-b300 underline">
                     Sign Up with Email
                   </Link>
-                </div>
+                </div> */}
 
                 <button className="mt-6 flex w-full items-center justify-center gap-2 rounded-2xl border border-n30 py-3">
-                  <Image src={google} alt="" />
-                  <span className="text-sm">Google</span>
+                  <Image src={MicrosoftLogo} alt="" />
+                  <span className="text-sm font-medium text-[#555555]">Sign In with Microsoft</span>
                 </button>
-
+                <button className="mt-3 flex w-full items-center justify-center gap-2 rounded-2xl border border-n30 py-3 bg-black text-white">
+                  <Image src={AppleLogo} alt="" />
+                  <span className="text-sm font-medium">Sign In with Apple</span>
+                </button>
                 <button className="mt-3 flex w-full items-center justify-center gap-2 rounded-2xl border border-n30 py-3">
-                  <Image src={facebook} alt="" />
-                  <span className="text-sm">Facebook</span>
+                  <Image src={google} alt="" />
+                  <span className="text-sm font-medium text-[#555555]">Sign In with Google</span>
                 </button>
+                <button className="mt-3 flex w-full items-center justify-center gap-2 rounded-2xl border border-n30 py-3 bg-[#0866FF] text-white">
+                  <Image src={FacebookLogo} alt="" />
+                  <span className="text-sm font-medium">Sign In with Facebook</span>
+                </button>
+              </div>
+              <div className="flex items-center mt-5 mb-5">
+                <hr className="flex-grow border-t border-gray-300" />
+                <span className="px-3 text-gray-500 font-medium text-[#555555]">
+                  or
+                </span>
+                <hr className="flex-grow border-t border-gray-300" />
+              </div>
+              <button className="mt-3 flex w-full items-center justify-center gap-2 rounded-2xl border border-n30 py-3 bg-black text-white">
+                <span className="text-sm font-medium">Sign In With Phone Or Email</span>
+              </button>
+              <div className="flex items-center justify-center mt-5 text-sm">
+                <p>Don’t have account? &nbsp;<span className="font-bold underline">Create Account</span></p>
               </div>
             </form>
           </div>
