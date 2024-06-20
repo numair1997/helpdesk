@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"components/ui/NumberCounter2.tsx -> react-odometerjs\":{\"id\":\"components/ui/NumberCounter2.tsx -> react-odometerjs\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_react-odometerjs_dist_index_js.js\"]}}"

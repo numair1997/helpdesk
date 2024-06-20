@@ -3,7 +3,7 @@
     "/(without-layout)/sign-in/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_swiper_swiper_css.css",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_swiper_css.css",
       "static/chunks/app/(without-layout)/sign-in/page.js"
     ],
     "/(without-layout)/layout": [
@@ -26,8 +26,14 @@
     "/(without-layout)/sign-up/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_swiper_swiper_css.css",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_swiper_css.css",
       "static/chunks/app/(without-layout)/sign-up/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_swiper_css.css",
+      "static/chunks/app/page.js"
     ]
   }
 }
