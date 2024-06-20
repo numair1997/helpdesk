@@ -1,4 +1,3 @@
-import { PiEnvelopeSimple, PiLock } from "react-icons/pi";
 
 const SignInForm = () => {
     return (

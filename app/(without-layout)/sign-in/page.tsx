@@ -14,13 +14,13 @@ function SignInPage() {
               <p className="text-4xl font-bold">Sign In</p>
               <p className="text-base">Please login to continue to your account.</p>
             </div>
-            <form className="flex w-full flex-col pt-6">
+            <div className="flex w-full flex-col pt-6">
               {/* <SignInOptions /> */}
               <SignInForm />
               <div className="flex items-center justify-center mt-5 text-sm">
                 <p>Don’t have account? &nbsp;<span className="font-bold underline">Create Account</span></p>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </section>
