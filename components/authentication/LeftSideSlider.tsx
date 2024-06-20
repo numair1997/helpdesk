@@ -8,11 +8,13 @@ import { Autoplay, FreeMode } from "swiper/modules";
 import { PiQuotesFill } from "react-icons/pi";
 import { loginReviewData } from "../../data/data";
 import icon from "@/public/images/login_slider_icon.png";
+import authImage from "@/public/images/auth.png"
 import Image from "next/image";
 
 function LeftSideSlider() {
   return (
     <div className="ml-10 flex items-start justify-start gap-10 max-lg:hidden 3xl:ml-40 3xl:gap-20">
+      {/* <img src={'/images/auth.png'} alt={"auth-image"}/> */}
       <Swiper
         modules={[FreeMode, Autoplay]}
         loop={true}

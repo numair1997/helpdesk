@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { Provider } from 'react-redux'
 import "./globals.css";
+import { store } from "@/store";
 
 const monsterratFont = Montserrat({
   subsets: ["latin"],
@@ -23,7 +25,9 @@ export default function RootLayout({
       <body
         className={`${monsterratFont.variable} ${monsterratFont.className}`}
       >
-        {children}
+        <Provider store={store}>
+          {children}
+        </Provider>
       </body>
     </html>
   );
