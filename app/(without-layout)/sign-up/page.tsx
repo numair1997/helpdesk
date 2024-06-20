@@ -1,6 +1,7 @@
 "use client";
 import LeftSideSlider from "@/components/authentication/LeftSideSlider";
 import SignUpForm from "@/components/sign-up/sign-up-form";
+import SignUpOptions from "@/components/sign-up/sign-up-options";
 
 function SignUpPage() {
   return (
@@ -14,8 +15,8 @@ function SignUpPage() {
               <p className="text-base">Sign up to enjoy the feature of HelpDesk</p>
             </div>
             <div className="flex w-full flex-col pt-6 pb-10">
-              {/* <SignUpOptions /> */}
-              <SignUpForm />
+              <SignUpOptions />
+              {/* <SignUpForm /> */}
               <div className="flex items-center justify-center mt-5 text-sm">
                 <p>You have account? <span className="font-bold underline">SignIn</span></p>
               </div>
