@@ -1376,6 +1376,18 @@ p {
 .mt-\[150px\] {
   margin-top: 150px;
 }
+.mt-20 {
+  margin-top: 5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-40 {
+  margin-top: 10rem;
+}
+.mt-60 {
+  margin-top: 15rem;
+}
 .block {
   display: block;
 }
@@ -2055,6 +2067,9 @@ p {
 .rounded-xl {
   border-radius: 0.75rem;
 }
+.rounded {
+  border-radius: 0.25rem;
+}
 .rounded-b-xl {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
@@ -2674,6 +2689,15 @@ p {
 }
 .pt-\[180px\] {
   padding-top: 180px;
+}
+.pt-40 {
+  padding-top: 10rem;
+}
+.pb-30 {
+  padding-bottom: 120px;
+}
+.pt-60 {
+  padding-top: 15rem;
 }
 .text-center {
   text-align: center;
@@ -5937,6 +5961,9 @@ input[type="number"] {
   }
   .\33xl\:ml-40 {
     margin-left: 10rem;
+  }
+  .\33xl\:ml-20 {
+    margin-left: 5rem;
   }
   .\33xl\:gap-12 {
     gap: 3rem;
