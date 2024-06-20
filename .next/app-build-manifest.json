@@ -69,6 +69,18 @@
       "static/chunks/main-app.js",
       "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
       "static/chunks/app/(without-layout)/home-four/page.js"
+    ],
+    "/(with-main-layout)/home-one/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/chunks/app/(with-main-layout)/home-one/page.js"
+    ],
+    "/(with-main-layout)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/chunks/app/(with-main-layout)/layout.js"
     ]
   }
 }

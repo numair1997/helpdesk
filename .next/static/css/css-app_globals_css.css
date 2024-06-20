@@ -5511,6 +5511,9 @@ input[type="number"] {
   .lg\:col-start-9 {
     grid-column-start: 9;
   }
+  .lg\:col-start-4 {
+    grid-column-start: 4;
+  }
   .lg\:-mb-10 {
     margin-bottom: -2.5rem;
   }

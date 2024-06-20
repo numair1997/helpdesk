@@ -17,7 +17,7 @@ function page() {
       <Header />
       <HeroSection />
       <HowItWorks />
-      <TopExperts isBgGray={true} />
+      {/* <TopExperts isBgGray={true} />
       <FixedPriceService2 isBgWhite={true} />
       <NewsLetter />
       <SecureGuard />
@@ -25,7 +25,7 @@ function page() {
       <RecentPosts />
       <GetWorker />
       <GetHelpToday />
-      <FooterThree />
+      <FooterThree /> */}
     </>
   );
 }
