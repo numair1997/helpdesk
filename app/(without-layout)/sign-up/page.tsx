@@ -1,18 +1,5 @@
 "use client";
-// Import Swiper styles
-import "swiper/css";
-// Import Swiper React components
-
 import LeftSideSlider from "@/components/authentication/LeftSideSlider";
-import facebook from "@/public/images/facebook_icon.png";
-import google from "@/public/images/google_icon.png";
-import MicrosoftLogo from "@/public/images/microsoft-logo.png";
-import AppleLogo from "@/public/images/apple-logo.png";
-import FacebookLogo from "@/public/images/facebook-logo.png";
-import Image from "next/image";
-import Link from "next/link";
-import { PiEnvelopeSimple, PiLock } from "react-icons/pi";
-import SignUpOptions from "@/components/sign-up/sign-up-options";
 import SignUpForm from "@/components/sign-up/sign-up-form";
 
 function SignUpPage() {
