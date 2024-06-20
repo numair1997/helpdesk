@@ -45,6 +45,12 @@
       "static/chunks/main-app.js",
       "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_swiper_css.css",
       "static/chunks/app/(without-layout)/forgot-password/page.js"
+    ],
+    "/(without-layout)/verify-otp/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_swiper_css.css",
+      "static/chunks/app/(without-layout)/verify-otp/page.js"
     ]
   }
 }
