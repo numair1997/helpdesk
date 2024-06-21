@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/(without-layout)/sign-in/page": [
+    "/(without-layout)/home-four/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/(without-layout)/sign-in/page.js"
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-68ad26.css",
+      "static/chunks/app/(without-layout)/home-four/page.js"
     ],
     "/(without-layout)/layout": [
       "static/chunks/webpack.js",
@@ -26,61 +26,31 @@
     "/(without-layout)/sign-up/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-68ad26.css",
       "static/chunks/app/(without-layout)/sign-up/page.js"
     ],
-    "/page": [
+    "/(without-layout)/sign-in/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/page.js"
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-68ad26.css",
+      "static/chunks/app/(without-layout)/sign-in/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
     ],
-    "/(without-layout)/forgot-password/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/(without-layout)/forgot-password/page.js"
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-68ad26.css",
+      "static/chunks/app/page.js"
     ],
     "/(without-layout)/verify-otp/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
+      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-68ad26.css",
       "static/chunks/app/(without-layout)/verify-otp/page.js"
-    ],
-    "/(without-layout)/home-two/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/(without-layout)/home-two/page.js"
-    ],
-    "/(without-layout)/home-three/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/(without-layout)/home-three/page.js"
-    ],
-    "/(without-layout)/home-four/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/(without-layout)/home-four/page.js"
-    ],
-    "/(with-main-layout)/home-one/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/(with-main-layout)/home-one/page.js"
-    ],
-    "/(with-main-layout)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc.css",
-      "static/chunks/app/(with-main-layout)/layout.js"
     ]
   }
 }

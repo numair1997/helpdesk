@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "607d34f94e5b69a5"; }
+/******/ 		__webpack_require__.h = function() { return "344b93a7e10b8317"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -830,7 +830,7 @@
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = __webpack_require__.hmrS_jsonp = __webpack_require__.hmrS_jsonp || {
 /******/ 			"webpack": 0,
-/******/ 			"css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-ed51cc": 0,
+/******/ 			"css-node_modules_odometer_themes_odometer-theme-default_css-node_modules_swiper_modules_pagin-68ad26": 0,
 /******/ 			"css-node_modules_next_font_google_target_css": 0,
 /******/ 			"css-app_globals_css": 0
 /******/ 		};
@@ -844,7 +844,7 @@
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(!/^(css\-(node_modules_(next_font_google_target_css|odometer_themes_odometer\-theme\-default_css\-node_modules_swiper_modules_pagin\-ed51cc)|app_globals_css)|webpack)$/.test(chunkId)) {
+/******/ 						if(!/^(css\-(node_modules_(next_font_google_target_css|odometer_themes_odometer\-theme\-default_css\-node_modules_swiper_modules_pagin\-68ad26)|app_globals_css)|webpack)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);

@@ -1,5 +1,6 @@
 import Header from "@/components/global/Header";
 import FooterThree from "@/components/global/footer/FooterThree";
+import CategorySlider from "@/components/home-page-components/category-slider";
 import GetWorker from "@/components/homeFour/GetWorker";
 import HeroSection from "@/components/homeFour/HeroSection";
 import Testimonial from "@/components/homeFour/Testimonial";
@@ -16,6 +17,7 @@ function page() {
     <>
       <Header />
       <HeroSection />
+      <CategorySlider />
       <HowItWorks />
       {/* <TopExperts isBgGray={true} />
       <FixedPriceService2 isBgWhite={true} />

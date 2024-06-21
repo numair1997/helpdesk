@@ -532,6 +532,30 @@ export const testimonialData = [
     name: "Georgia Daniels",
     profileId: "@georgia",
   },
+  {
+    id: uuidv4(),
+    review:
+      "I was amazed at the efficiency of the platform. The handyman arrived promptly and completed the task with skill. I'm a satisfied customer and will definitely use this service again.A reliable service for tech assistance.",
+    img: smallPeople1,
+    name: "Georgia Daniels",
+    profileId: "@georgia",
+  },
+  {
+    id: uuidv4(),
+    review:
+      "I was amazed at the efficiency of the platform. The handyman arrived promptly and completed the task with skill. I'm a satisfied customer and will definitely use this service again.A reliable service for tech assistance.",
+    img: smallPeople1,
+    name: "Georgia Daniels",
+    profileId: "@georgia",
+  },
+  {
+    id: uuidv4(),
+    review:
+      "I was amazed at the efficiency of the platform. The handyman arrived promptly and completed the task with skill. I'm a satisfied customer and will definitely use this service again.A reliable service for tech assistance.",
+    img: smallPeople1,
+    name: "Georgia Daniels",
+    profileId: "@georgia",
+  },
 ];
 
 export const loginReviewData = [
