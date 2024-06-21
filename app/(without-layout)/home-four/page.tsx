@@ -1,18 +1,12 @@
-import Header from "@/components/global/Header";
-import FooterThree from "@/components/global/footer/FooterThree";
+import Header from "@/components/home-page-components/Header";
+import HeroSection from "@/components/home-page-components/HeroSection";
+import HowItWorks from "@/components/home-page-components/HowItWorks";
+import RecentPosts from "@/components/home-page-components/RecentPosts";
 import CategorySlider from "@/components/home-page-components/category-slider";
-import GetWorker from "@/components/homeFour/GetWorker";
-import HeroSection from "@/components/homeFour/HeroSection";
-import Testimonial from "@/components/homeFour/Testimonial";
-import FixedPriceService2 from "@/components/homeOne/FixedPriceService2";
-import GetHelpToday from "@/components/homeOne/GetHelpToday";
-import NewsLetter from "@/components/homeOne/NewsLetter";
-import RecentPosts from "@/components/homeOne/RecentPosts";
-import SecureGuard from "@/components/homeOne/SecureGuard";
-import TopExperts from "@/components/homeOne/TopExperts";
-import HowItWorks from "@/components/homeThree/HowItWorks";
+import FAQ from "@/components/home-page-components/faq";
 
 function page() {
+
   return (
     <>
       <Header />
@@ -23,11 +17,12 @@ function page() {
       <FixedPriceService2 isBgWhite={true} />
       <NewsLetter />
       <SecureGuard />
-      <Testimonial />
+      <Testimonial /> */}
       <RecentPosts />
-      <GetWorker />
+      <FAQ />
+      {/* <GetWorker />
       <GetHelpToday />
-      <FooterThree /> */}
+      <FooterThree />  */}
     </>
   );
 }

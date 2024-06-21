@@ -1,5 +1,5 @@
 "use client";
-import { PiArrowLeft, PiArrowRight } from "react-icons/pi";
+import { PiCaretRight, PiCaretLeft } from "react-icons/pi";
 import { testimonialData } from "../../data/data";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -29,10 +29,10 @@ const CategorySlider = () => {
                         <div className="relative mt-16 max-w-[120px] rounded-full bg-white px-2 pt-0.5"></div>
                         <div className="flex items-center justify-end gap-3 pt-6 text-lg !leading-none text-black lg:pt-10">
                             <button className=" ara-prev flex items-center justify-center rounded-full border border-black p-3 lg:p-4">
-                                <PiArrowLeft />
+                                <PiCaretLeft />
                             </button>
                             <button className=" ara-next flex items-center justify-center rounded-full border border-black p-3 lg:p-4">
-                                <PiArrowRight />
+                                <PiCaretRight />
                             </button>
                         </div>
                     </div>
