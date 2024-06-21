@@ -20,16 +20,12 @@ const FAQ = () => {
                 {faqData.map(({ id, question, answer }, idx) => (
                     <div
                         key={id}
-                        className={`overflow-hidden rounded-2xl  px-4 py-3 w-full cursor-pointer ${show === idx ? "border border-black" : "border border-n40"
-                        }`}
+                        className={`overflow-hidden rounded-2xl  px-4 py-3 w-full cursor-pointer ${show === idx ? "border border-black" : "border border-n40"}`}
                         onClick={() => setShow(idx === show ? NaN : idx)}
                     >
                         <div className="flex items-center justify-between max-sm:gap-2">
                             <p className=" text-base font-medium sm:text-lg">{question}</p>
-                            <div
-                                className={`flex items-center justify-center p-2 text-xl !leading-none text-black duration-700 sm:p-3 ${show === idx ? "-rotate-90 " : "rotate-90"
-                                    }`}
-                            >
+                            <div className={`flex items-center justify-center p-2 text-xl !leading-none text-black duration-700 sm:p-3 ${show === idx ? "-rotate-90 " : "rotate-90"}`}>
                                 <PiCaretRight />
                             </div>
                         </div>
