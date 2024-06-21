@@ -282,11 +282,8 @@ body {
 
 /* Gradient styles */
 .linear_gradient_one {
-  background: linear-gradient(
-    -360deg,
-    rgba(0, 101, 255, 0) 0%,
-    #554aff 100.14%
-  );
+
+  background: linear-gradient(90deg, #070707 0%, #FFFFFF 100%);
 }
 
 /* input number arrow hide */
