@@ -1712,6 +1712,9 @@ p {
 .w-px {
   width: 1px;
 }
+.w-5 {
+  width: 1.25rem;
+}
 .min-w-\[100px\] {
   min-width: 100px;
 }
